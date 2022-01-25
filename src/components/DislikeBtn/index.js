@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FaveButton = () => {
+const DislikeBtn = () => {
   const [ faved, setFaved ] = useState(false);
 
   const handleFave = e => {
@@ -9,8 +9,8 @@ const FaveButton = () => {
   }
 
   return (
-      <button role="switch" onClick={handleFave} style={{ color: faved ? 'blue' : 'grey'}}>Like</button>
+      <button role="switch" onClick={handleFave} style={{ color: faved ? 'Red' : 'grey'}}>Dislike</button>
   )
 };
 
-export default FaveButton;
+export default DislikeBtn;

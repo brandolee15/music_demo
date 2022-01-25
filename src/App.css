@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+h2 {
+  font-family: fantasy;
+  color: rgb(0, 38, 255);
+}
+
+h3 {
+  font-family: fantasy;
+  color:rgb(0, 38, 255)
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  padding: 15px
+}
+
+li {
+  color:rgb(0, 153, 255);
+  font-family: cursive;
+}
+
+button {
+  background-color: rgba(78, 185, 78, 0.315);
+  padding: 15px 32px;
+}
